@@ -1,21 +1,13 @@
-// create a complete web server with node.js
-// 1. create a server
-// 2. create a router
-// 3. create a request handler
-// 4. map request handler to a route
-// 5. start server and listen to incoming requests
+// create web server
 
-// 1. create a server
+
 var http = require('http');
 var url = require('url');
 var util = require('util');
 var fs = require('fs');
 var path = require('path');
 
-// 2. create a router
-// 3. create a request handler
-// 4. map request handler to a route
-// 5. start server and listen to incoming requests
+
 http.createServer(function (req, res) {
     var pathname = url.parse(req.url).pathname;
     console.log("Request for " + pathname + " received.");
